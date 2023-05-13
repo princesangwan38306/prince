@@ -1,0 +1,341 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+/* navigation bar */
+.main-logo-img{
+    display: flex;
+    margin-left: 30px;
+}
+.main-logo-img img{
+    width: 85px;
+    border-radius: 60px;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+.right-nav span{
+    color: black;
+    width: 230px;
+    font-size: 51px;
+    text-align: center;
+    margin: 0px 50px;
+    /* padding: 1px 2px; */
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family:dela gothic one, Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #fff;
+    display: flex;
+    border-bottom: 4px solid black;
+}
+.nav-list{
+    display: flex;
+    width: 70%;
+}
+.nav-list li{
+    list-style: none;
+    padding: 28px 25px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: space grotesk;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    box-shadow: 0px 4px;
+    transition: 0.3s;
+}
+.main-content{
+    background-color: bisque;
+}
+
+/* body section */
+.mountain-img{
+    width: 400px;
+    border-bottom-right-radius: 100px;
+    
+
+}
+
+.mountain-img-text{
+    font-family: 'Dela Gothic One';
+    font-size: 70px;
+}
+.mountain-img-text-small{
+
+}
+.main-con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: column;
+    
+}
+.main-main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: 7%;
+    
+}
+
+.btn-enter{
+    font-family: 'Dela Gothic One';
+    border: 2px solid black;
+    padding: 5px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px;
+    margin: 18px;
+    font-size: 23px;
+    cursor: pointer;
+    color: black;
+}
+.btn-enter:hover{
+    box-shadow: 9px 9px ;
+    transition: 0.4s;
+}
+
+.main-foot{
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+.one-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+}
+.prince-footer-name{
+    color: white;
+    font-family: dela gothic one;
+    font-size: 50px;
+}
+
+.send-message-text{
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 25px;
+}
+
+.send-message-email{
+    color: black;
+    text-decoration: none;
+    font-family: 'Space Grotesk';
+    background-color: white;
+    padding: 2px;
+}
+
+.send-message-tutorial-text{
+    color: white;
+    font-family: 'Space Grotesk';
+}
+.reserved-text{
+    margin: 13%;
+    margin-left: 26%;
+}
+.reserved-text p{
+    color: white;
+}
+
+/* css for about page */
+
+.about-main-content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.about-backgroundcolor{
+    background-color:aliceblue;
+}
+
+.about-main-prince-img{
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 120px;
+    width: 70%;
+}
+
+.about-main-img-div{
+    /* margin: 5%; */
+}
+
+.about-main-button{
+    font-family: dela gothic one;
+    font-size: 50px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    padding: 6px;
+    box-shadow: 8px 8px;
+    margin: 23px;
+}
+
+.about-main-text{
+    font-family: space grotesk;
+    width: 500px;
+}
+
+
+/* css for projects page  */
+
+.project-background-color{
+    background-color: aqua;
+
+}
+
+.project-button-margin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.project-button-none{
+    font-family: 'Dela Gothic One';
+    border: 2px solid black;
+    background-color: antiquewhite;
+    font-size: 124px;
+    box-shadow: 12px 12px;
+}
+
+
+/* css for contact page  */
+
+
+.contact-main-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-emial-button{
+    font-family: 'Dela Gothic One';
+    border: 2px solid black;
+    font-size: 70px;
+    padding: 0 6px;
+    margin: 45px 0;
+    box-shadow: 12px 12px;
+}
+
+.contact-email-address{
+    border: 2px solid #f5eeee;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.contact-email-sec-main-div{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.contact-main-send-button-sec {
+    font-family: 'Dela Gothic One';
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px;
+    background-color: bisque;
+    box-shadow: 5px 5px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media quorey for home section  */
+@media only screen and (max-width:1153px){
+    .nav-list{
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 550px;
+        margin: auto;
+    }
+    .right-nav{
+        flex-direction: column;
+        margin: auto;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+    }
+    .line {
+        width: 33px;
+        background-color: black;
+        height: 4px;
+        margin: 3px 3px;
+    }
+    .h-nav{
+        height: 50px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .main-main-content{
+        flex-direction: column;
+        max-width: 78%;
+        margin: 2px;
+    }
+    .main-foot{
+        flex-direction: column;
+        margin: 0;
+        
+    }
+    .main-con{
+        max-width: fit-content;
+
+    }
+    .mountain-img-text{
+        font-size: 63px;
+    }
+    .mountain-img{
+        width: 390px;
+        border-bottom-right-radius: 100px;
+        
+    
+    }
+    .about-main-content-section{
+        flex-direction: column;
+    }
+    .about-main-text{
+        width: 100%;
+    }
+    .about-main-prince-img{
+        width: 100%;
+    }
+    .project-button-none{
+        font-size: 110px;
+    }
+    .contact-email-sec-main-div{
+        margin: 3%;
+    }
+    
+    
+}
